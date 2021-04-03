@@ -1,0 +1,70 @@
+#main {
+    background-color: whitesmoke;
+    width: 75%;
+    margin: auto;
+    height: 100%;
+    top: 0%;
+    border-radius: 25px;
+    box-shadow: 5px 10px #66666657;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: #f3f021;
+    margin: 0em;
+    width:100%;
+    height:100%;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#navbar {
+    background-color: #3a3a3a;
+    width: 100%;
+    margin: auto;
+    height: 35px;
+    position: top;
+    /* border-radius: 25px; */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #Contact{
+      float:right
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.active {
+background-color:yellow
+}
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+  }
