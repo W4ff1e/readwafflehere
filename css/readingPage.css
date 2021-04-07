@@ -2,10 +2,14 @@
   background-color: whitesmoke;
   width: 75%;
   margin: auto;
-  height: 100%;
+  height: auto;
   top: 0%;
   /* border-radius: 25px; */
   box-shadow: 0  0 10px #66666657;
+  overflow: auto;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 700px) {
 
@@ -14,7 +18,19 @@
 }
 
 }
-
+#novelTitle {
+  text-align: center
+  
+}
+#chapTitle {
+  text-align: center
+}
+.chapterContent {
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 18px;
+  
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   background-color: #FDFD96;
@@ -24,15 +40,7 @@ body {
   position: absolute;
   font-family: 'Roboto', sans-serif;
 }
-h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
-#temp{
-text-align: center;
-}
+
 #navbar {
 background-color: #3a3a3a;
 width: 100%;
@@ -66,6 +74,7 @@ text-decoration: none;
 
 li a:hover {
 background-color: #111;
+color: white;
 }
 
 li a:active {
@@ -76,7 +85,7 @@ footer {
   width: 100%;
   background-color: #3a3a3a;
   position: absolute;
-  bottom: 0%;
+  bottom: auto;
 }
 footer p {
   color: ivory;
@@ -84,4 +93,24 @@ footer p {
 .dark-mode {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #FDFD96;
+  color: black;
+}
+
+.next {
+  background-color: #FDFD96;
+  color: #000000;
 }
