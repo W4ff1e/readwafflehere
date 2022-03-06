@@ -1,4 +1,4 @@
-/*
+
 const json = require(JSON/novels.json)
 //var novelInfo = JSON.parse(novels.json)
 function test(){
@@ -6,7 +6,7 @@ function test(){
     alert(novelInfo[0].name);
     console.log("I WORK");
 };
-*/
+/*
 function populateSelect() {
     console.log("Test Success")
     // CREATE AN XMLHttpRequest OBJECT, WITH GET METHOD.
@@ -33,3 +33,4 @@ function populateSelect() {
     xhr.open(method, url, true);
     xhr.send();
 }
+*/
